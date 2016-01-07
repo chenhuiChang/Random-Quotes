@@ -31,7 +31,7 @@ function getOwner()
 
 function newQuote(){
   i = getRandomInt(0,database.length-1,i);
-  if (document.getElementById("quote-area").innerHTML===null) 
+  if (document.getElementById("quote-area")===null) 
   {
     $("#quote-area").html(getQuote());
     $("#owner-area").html(getOwner());
