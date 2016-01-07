@@ -1,0 +1,40 @@
+.background{
+  background-image: url("http://i.imgur.com/R1kC5by.jpg");
+  background-size: auto;
+}
+.tittle{
+  font-family: 'Indie Flower', cursive;
+  font-size:72px;
+}
+.little-talk{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:28px;
+}
+.change{
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  left:40px;
+  width:200px;
+  height:40px;
+  margin: 20px auto;
+}
+.sized-region{
+  border-style: solid;
+  border-color: #CCAA11;
+  width: 400px;
+  height: 40px;
+  margin: 0 auto; 
+  background-color:#CCCCCC;
+}
+.quote-style{
+  font-size: 24px;
+  font-family: 'Gentium Basic', serif;
+}
+.owner-style{
+  font-size: 24px;
+  font-family: 'Great Vibes', cursive;
+}
+.twitterb{
+  position: relative;
+  left:165px;
+}
