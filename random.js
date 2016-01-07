@@ -34,13 +34,12 @@ function newQuote(){
   if (document.getElementById("quote-area").innerHTML===null) 
   {
     $("#quote-area").html(getQuote());
-  }
-  if (document.getElementById("owner-area").innerHTML===null) 
-  {
     $("#owner-area").html(getOwner());
   }
-  document.getElementById("quote-area").innerHTML=getQuote();
-  document.getElementById("owner-area").innerHTML=getOwner();
+  else{
+    document.getElementById("quote-area").innerHTML=getQuote();
+    document.getElementById("owner-area").innerHTML=getOwner();
+  }
   shapeBox();
 }
 
