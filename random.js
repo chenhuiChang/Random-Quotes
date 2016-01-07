@@ -31,19 +31,14 @@ function getOwner()
 
 function newQuote(){
   i = getRandomInt(0,database.length-1,i);
-  //document.getElementById("quote-area").innerHTML=getQuote();
-  //document.getElementById("owner-area").innerHTML=getOwner();
   $("#quote-area").html(getQuote());
   $("#owner-area").html(getOwner());
   shapeBox();
 }
 
 function shapeBox(){
-  //console.log(getQuote().length+getOwner().length);
   var line = (getQuote().length)/37 + 2;
-  //$("#show-area").css("height",String(line*40));
   $(".sized-region").css("height",String(line*40));
-  //console.log(getQuote().length+getOwner().length);
 }
 
 newQuote();
